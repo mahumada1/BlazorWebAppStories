@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = StoriesWebApp.Client
+build_property.RootNamespace = StoriesWebApp.Client
+build_property.ProjectDir = C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Componentes/MyComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50ZXNcTXlDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Componentes/StoriesTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50ZXNcU3Rvcmllc1RhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Novelties/Today.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm92ZWx0aWVzXFRvZGF5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Novelties/_imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm92ZWx0aWVzXF9pbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Shared/PageFooter.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhZ2VGb290ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ff64j21whr
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6422dx7gtt
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Shared/NoveltiesLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vdmVsdGllc0xheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-b1lincgt9a

@@ -1,0 +1,17 @@
+﻿@page "/novelties/today/{PageNumber:int?}"
+@*@layout NoveltiesLayout // POSIBILIDAD DE SOBRE ESCRIBIR EL LAYOUT DE UN COMPONENETE EN PARTICULAR*@
+
+<h2>Novedades de Hoy, página @PageNumber</h2>
+
+@if(_stories == null)
+{
+    <p>Cargando listado ....</p>
+}
+else
+{
+    <StoriesTable Caption="Tabla con las historias de hoy" Stories="@_stories" />
+}
+
+
+
+

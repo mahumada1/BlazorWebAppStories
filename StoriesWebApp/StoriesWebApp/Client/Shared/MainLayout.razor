@@ -1,0 +1,26 @@
+﻿@inherits LayoutComponentBase
+@using StoriesWebApp.Client.Componentes @*ESTE USING PARA REFERENCIAR CARPETAS DE COMPONENETES SE PUEDE COPIAR AL ARCHIVO Imports PARA QUE SEA USADO POR TODO EL PROYECTO.*@
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            <CascadingValue Value="numeroSuscriptores" Name="numeroSuscriptores">
+                @Body
+            </CascadingValue>
+        </article>
+    </main>
+
+    <PageFooter/>
+    @*<MyComponent />*@
+    @*<StoriesWebApp.Client.Componentes.MyComponent />   ESTO PASA SI NO SE TIENE EL COMPONENETE REFERENCIADO COMO USING*@
+
+
+</div>

@@ -1,0 +1,55 @@
+﻿<h3>Filtrar Historias</h3>
+<div role="search">
+	<div class="form-group">
+		<label for="txtSearch">Buscar Hisotrias:</label>
+		<input type="text" class="form-control" id="txtSearch" @bind="searchField" />
+	</div>
+	<button class="btn-primary" @onclick="PerformSearch">Buscar</button>
+	<button class="btn-primary" @onclick="@(()=>{SetRecentSearch(string.Empty);PerformSearch();})">Limpiar</button>
+	<h4 id="hRecenSearches" role="group" aria-labelledby="hRecentSearches"></h4>
+	<div id="pnlRecentSearches" role="group" aria-labelledby="hRecentSearches" >
+		<ul>
+			@foreach (var item in recentSearches)
+			{
+				<li><button @onclick="(()=> SetRecentSearch(item))" disabled="@(searchField == item)">@item</button></li>
+			}
+		</ul>
+	</div>
+</div>
+
+<h3>Historias encontradas</h3>
+
+<p>El numero de paginas es @paginationConfig.NumberOFResults y el valor por paginas es @paginationConfig.PagesVisible</p>
+@if(!filteredResults.Any())
+{
+	<p role="alert">No se encontraron resultados para el texto @textToFilter</p>
+}
+else
+{
+	<p role="alert">Se han encontrado @filteredResults.Count resultados.</p>
+	<table>
+		<caption>@captionWithFilter</caption>
+		<thead>
+			<tr>
+				<th>Titulo</th>
+				<th>Autor</th>
+				<th>Fecha de Publicación</th>
+				<th>Categoría</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in filteredResults.OrderBy(s=>s.PublishedDate))
+			{
+				<tr>
+					<td>@item.Title</td>
+					<td>@item.Author</td>
+					<td>@item.PublishedDate.ToLongDateString()</td>
+					<td>@item.Category</td>
+				</tr>
+			}
+		</tbody>
+
+	</table>
+}
+
+

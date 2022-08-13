@@ -1,0 +1,26 @@
+﻿@inherits LayoutComponentBase
+@layout MainLayout
+@*ES POSIBLE AGREGAR LAYOUT DENTRO DE OTRO LAYOUT PARA ANIDAR EL CONTENIDO*@
+
+<h1>Novedades</h1>
+
+<nav class="flex-column">
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="/novelties/today" Match="NavLinkMatch.All">
+            Novedades de Hoy
+        </NavLink>
+    </div>
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="/novelties/today" Match="NavLinkMatch.All">
+            Novedades de la semana
+        </NavLink>
+    </div>
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="/novelties/today" Match="NavLinkMatch.All">
+            Novedades de este mes
+        </NavLink>
+    </div>
+</nav>
+
+@Body
+
