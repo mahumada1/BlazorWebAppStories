@@ -43,5 +43,12 @@ namespace StoriesWebApp.Client.Pages.Novelties
             return base.OnAfterRenderAsync(firstRender);
         }
 
+        private Story storySelected = null;
+
+        private void OnStorySelected(Story item)
+        {
+            storySelected = item;
+        }
+
     }
 }

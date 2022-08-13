@@ -16,6 +16,8 @@ namespace StoriesWebApp.Client.Componentes
         [Parameter]
         public List<Story> Stories { get; set; }
 
+        [Parameter]
+        public EventCallback<Story> OnStorySelect { get; set; }
 
         private List<string> recentSearches = new List<string> { "terror", "dientes", "gato" };
         private string searchField;
@@ -61,7 +63,10 @@ namespace StoriesWebApp.Client.Componentes
             searchField = text;
         }
 
-
+        private Task SelectStory(Story item)
+        {
+            return OnStorySelect.InvokeAsync(item);
+        }
     }
 
 }

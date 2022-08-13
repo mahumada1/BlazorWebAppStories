@@ -1,0 +1,13 @@
+﻿@using StoriesWebApp.Client.Extensions
+@if(Story == null)
+{
+    <p>Cargando historia ....</p>
+}
+else
+{
+    <h2>Detalles de &quot;@Story.Title&quot; de @Story.Author</h2>
+    <p>Publicado el @Story.PublishedDate.ToShortDateString()</p>
+    <article>@((MarkupString)Story.Title.ConvertToHtml())</article>
+}
+
+

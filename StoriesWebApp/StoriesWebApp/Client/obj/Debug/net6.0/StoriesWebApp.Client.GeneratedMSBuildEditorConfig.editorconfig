@@ -22,12 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Componentes/EnhancedInput.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50ZXNcRW5oYW5jZWRJbnB1dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Componentes/MyComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50ZXNcTXlDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Componentes/StoriesTable.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50ZXNcU3Rvcmllc1RhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Componentes/StoryDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50ZXNcU3RvcnlEZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Counter.razor]
@@ -48,6 +56,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Novelties/_imports.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm92ZWx0aWVzXF9pbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Stories/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Rvcmllc1xBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Stories/AddOrEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Rvcmllc1xBZGRPckVkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Shared/PageFooter.razor]

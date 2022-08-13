@@ -9,8 +9,15 @@
 }
 else
 {
-    <StoriesTable Caption="Tabla con las historias de hoy" Stories="@_stories" />
+    <StoriesTable Caption="Tabla con las historias de hoy" Stories="@_stories" OnStorySelect="OnStorySelected" />    
+    @if(storySelected != null)
+    {
+        <StoryDetails Story="storySelected"/>
+    }
+    
 }
+
+
 
 
 

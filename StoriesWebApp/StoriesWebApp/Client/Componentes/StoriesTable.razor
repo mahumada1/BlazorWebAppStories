@@ -31,6 +31,7 @@ else
 		<caption>@captionWithFilter</caption>
 		<thead>
 			<tr>
+				<th></th>
 				<th>Titulo</th>
 				<th>Autor</th>
 				<th>Fecha de Publicación</th>
@@ -41,10 +42,14 @@ else
 			@foreach (var item in filteredResults.OrderBy(s=>s.PublishedDate))
 			{
 				<tr>
-					<td>@item.Title</td>
+					<td><input id="checkVisible" type="checkbox" @bind="item.Visible"/></td>
+					<td><a href="#" @onclick="@(()=> SelectStory(item))" @onclick:preventDefault="true">@item.Title</a> </td>
 					<td>@item.Author</td>
 					<td>@item.PublishedDate.ToLongDateString()</td>
 					<td>@item.Category</td>
+				</tr>
+				<tr style="display: @(!item.Visible?"none": "inline");">
+					<td colspan="5">DESCRIPCIÓN DEL TITULO</td>
 				</tr>
 			}
 		</tbody>
