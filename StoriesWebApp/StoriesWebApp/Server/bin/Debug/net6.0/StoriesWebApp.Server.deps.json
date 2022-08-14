@@ -16,6 +16,17 @@
           "StoriesWebApp.Server.dll": {}
         }
       },
+      "Blazored.LocalStorage/4.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.8"
+        },
+        "runtime": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.8": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "6.0.8",
@@ -246,10 +257,20 @@
           "System.Text.Encodings.Web": "6.0.0"
         }
       },
+      "StoriesLibrary.Components/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.8"
+        },
+        "runtime": {
+          "StoriesLibrary.Components.dll": {}
+        }
+      },
       "StoriesWebApp.Client/1.0.0": {
         "dependencies": {
+          "Blazored.LocalStorage": "4.2.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.8",
           "Microsoft.Extensions.Logging.Configuration": "6.0.0",
+          "StoriesLibrary.Components": "1.0.0",
           "StoriesWebApp.Shared": "1.0.0"
         },
         "runtime": {
@@ -268,6 +289,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Blazored.LocalStorage/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cn6h0QrLw0AIwkx/LiogtBycBFHIeqT/ptXIt871/07qTCvIGXCQZpc1s38wpmTfYLvpha5+5yn6TvIaY9ziyg==",
+      "path": "blazored.localstorage/4.2.0",
+      "hashPath": "blazored.localstorage.4.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/6.0.8": {
       "type": "package",
@@ -485,6 +513,11 @@
       "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
       "path": "system.text.json/6.0.0",
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
+    },
+    "StoriesLibrary.Components/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "StoriesWebApp.Client/1.0.0": {
       "type": "project",

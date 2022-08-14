@@ -35,6 +35,22 @@ namespace StoriesWebApp.Client.Servicios
                 new Story { Id=21, Title = "La mirada vacía", Author = "Juan María Martín", PublishedDate = new DateTime(2021, 2, 28, 8, 22, 51), Category = "ciencia ficción" }
             };
 
+            int i = 22;
+            Random rand = new Random();
+            while (i < 500)
+            {
+                var item = items[rand.Next(1, 21)];
+                items.Add(new Story
+                {
+                    Id = i,
+                    Author = item.Author,
+                    Category = item.Category,
+                    PublishedDate = item.PublishedDate,
+                    Title = item.Title,
+                });
+                i++;
+            }
+
             return items;
         }
     }

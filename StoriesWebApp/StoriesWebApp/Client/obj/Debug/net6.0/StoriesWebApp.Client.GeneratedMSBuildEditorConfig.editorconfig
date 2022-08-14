@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50ZXNcU3RvcnlEZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Admin/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,10 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Novelties/Today.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm92ZWx0aWVzXFRvZGF5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Novelties/_imports.razor]
@@ -77,6 +77,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Pages/Novelties/Today.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm92ZWx0aWVzXFRvZGF5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-eieh1nrz0p
 
 [C:/GIT/GitPruebas/BlazorWebAppStories/StoriesWebApp/StoriesWebApp/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

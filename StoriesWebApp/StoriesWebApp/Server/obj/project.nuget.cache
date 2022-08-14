@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "srodJa5DkQuGVhDDixuUnt+2/a+M7HbJG3He2CUHo4zEG0Pu+CUw7jaL+Tp76YZB192kwF8TlpdCiOY+2B9idw==",
+  "dgSpecHash": "3OXkuln3u+xxTUMg3UeZqB6PVVKMZrygSiAEq3llFFU0HkVf4oDGfReGuw8BLFQAd/kge1lYA1zEHlyMuJCnAg==",
   "success": true,
   "projectFilePath": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Server\\StoriesWebApp.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\manue\\.nuget\\packages\\blazored.localstorage\\4.2.0\\blazored.localstorage.4.2.0.nupkg.sha512",
     "C:\\Users\\manue\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
     "C:\\Users\\manue\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\microsoft.aspnetcore.components.6.0.8.nupkg.sha512",
     "C:\\Users\\manue\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.8\\microsoft.aspnetcore.components.analyzers.6.0.8.nupkg.sha512",

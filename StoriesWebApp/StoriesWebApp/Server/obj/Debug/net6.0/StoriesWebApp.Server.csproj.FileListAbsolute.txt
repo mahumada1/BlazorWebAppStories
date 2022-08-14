@@ -45,3 +45,7 @@ C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Server\obj\Deb
 C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Server\obj\Debug\net6.0\StoriesWebApp.Server.pdb
 C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Server\obj\Debug\net6.0\StoriesWebApp.Server.genruntimeconfig.cache
 C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Server\obj\Debug\net6.0\ref\StoriesWebApp.Server.dll
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Server\bin\Debug\net6.0\StoriesLibrary.Components.staticwebassets.runtime.json
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Server\bin\Debug\net6.0\StoriesLibrary.Components.dll
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Server\bin\Debug\net6.0\StoriesLibrary.Components.pdb
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Server\bin\Debug\net6.0\Blazored.LocalStorage.dll

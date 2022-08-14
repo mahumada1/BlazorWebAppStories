@@ -1,3 +1,4 @@
+using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using StoriesWebApp.Client;
@@ -12,6 +13,7 @@ builder.Logging.AddConfiguration(builder.Configuration.GetSection("Logging"));
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddSingleton<IStoriesService, StoriesService>();
+builder.Services.AddBlazoredLocalStorage();
 
 var paginationConfig = new PaginationConfig();
 builder.Configuration.GetSection("Pagination").Bind(paginationConfig);

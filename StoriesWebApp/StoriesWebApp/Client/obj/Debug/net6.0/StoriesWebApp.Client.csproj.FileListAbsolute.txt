@@ -830,3 +830,17 @@ C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Deb
 C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\obj\Debug\net6.0\build-gz\iefhbr+N.gz
 C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\obj\Debug\net6.0\build-gz\DgO9V6Ey.gz
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\obj\Debug\net6.0\scopedcss\Pages\Novelties\Today.razor.rz.scp.css
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\wwwroot\_framework\StoriesLibrary.Components.dll
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\wwwroot\_framework\StoriesLibrary.Components.pdb
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\wwwroot\_framework\StoriesLibrary.Components.pdb.gz
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\wwwroot\_framework\StoriesLibrary.Components.dll.gz
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\StoriesLibrary.Components.staticwebassets.runtime.json
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\StoriesLibrary.Components.dll
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\StoriesLibrary.Components.pdb
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\obj\Debug\net6.0\build-gz\YhZo85YV.gz
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\obj\Debug\net6.0\build-gz\ffyCVOu8.gz
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\bin\Debug\net6.0\Blazored.LocalStorage.dll
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Client\obj\Debug\net6.0\build-gz\Znj8IlCC.gz

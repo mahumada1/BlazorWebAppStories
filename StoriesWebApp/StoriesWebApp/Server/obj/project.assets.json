@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Blazored.LocalStorage/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.8": {
         "type": "package",
         "dependencies": {
@@ -555,12 +567,27 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "StoriesLibrary.Components/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.8"
+        },
+        "compile": {
+          "bin/placeholder/StoriesLibrary.Components.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoriesLibrary.Components.dll": {}
+        }
+      },
       "StoriesWebApp.Client/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Blazored.LocalStorage": "4.2.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.8",
           "Microsoft.Extensions.Logging.Configuration": "6.0.0",
+          "StoriesLibrary.Components": "1.0.0",
           "StoriesWebApp.Shared": "1.0.0"
         },
         "compile": {
@@ -583,6 +610,21 @@
     }
   },
   "libraries": {
+    "Blazored.LocalStorage/4.2.0": {
+      "sha512": "cn6h0QrLw0AIwkx/LiogtBycBFHIeqT/ptXIt871/07qTCvIGXCQZpc1s38wpmTfYLvpha5+5yn6TvIaY9ziyg==",
+      "type": "package",
+      "path": "blazored.localstorage/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.localstorage.4.2.0.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "icon.png",
+        "lib/net5.0/Blazored.LocalStorage.dll",
+        "lib/net6.0/Blazored.LocalStorage.dll",
+        "lib/netstandard2.1/Blazored.LocalStorage.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/6.0.8": {
       "sha512": "rDLMah6FOtFoC5uWDxnevcH/FqEs+APgmTqEvcLj3OU6Y/X8M5ASm/EdlQh6B+Z2XsQW5xu+K8tyn7w7OgOX8A==",
       "type": "package",
@@ -1280,6 +1322,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "StoriesLibrary.Components/1.0.0": {
+      "type": "project",
+      "path": "../StoriesLibrary.Components/StoriesLibrary.Components.csproj",
+      "msbuildProject": "../StoriesLibrary.Components/StoriesLibrary.Components.csproj"
     },
     "StoriesWebApp.Client/1.0.0": {
       "type": "project",

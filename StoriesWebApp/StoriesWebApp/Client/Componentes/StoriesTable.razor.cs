@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web.Virtualization;
 using StoriesWebApp.Client.Configuracion;
 using StoriesWebApp.Shared;
 
@@ -18,6 +19,12 @@ namespace StoriesWebApp.Client.Componentes
 
         [Parameter]
         public EventCallback<Story> OnStorySelect { get; set; }
+
+        [Parameter]
+        public RenderFragment HeaderTemplate { get; set; }
+
+        [Parameter]
+        public RenderFragment<(Story Story, StoriesTable Table)> RowTemplate { get; set; }
 
         private List<string> recentSearches = new List<string> { "terror", "dientes", "gato" };
         private string searchField;
@@ -63,12 +70,19 @@ namespace StoriesWebApp.Client.Componentes
             searchField = text;
         }
 
-        private Task SelectStory(Story item)
+        public Task SelectStory(Story item)
         {
             return OnStorySelect.InvokeAsync(item);
         }
-    }
 
+        private async ValueTask<ItemsProviderResult<Story>> LoadStories (ItemsProviderRequest request)
+        {
+            await Task.Delay(100);
+            var storiesToTake = Math.Min(request.Count, filteredResults.Count - request.StartIndex);
+            var storiesToShow = filteredResults.Skip(request.StartIndex).Take(storiesToTake);            
+            return new ItemsProviderResult<Story>(storiesToShow, filteredResults.Count);
+        }
+    }
 }
 
 //namespace StoriesWebApp.Client.Componentes

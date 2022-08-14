@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoriesWebApp.Client", "Sto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoriesWebApp.Shared", "StoriesWebApp\Shared\StoriesWebApp.Shared.csproj", "{F7B91C8B-0A8D-452D-9341-049B36ADF82A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoriesLibrary.Components", "StoriesWebApp\StoriesLibrary.Components\StoriesLibrary.Components.csproj", "{5C745BE2-773D-4F27-A395-1126594CDBAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F7B91C8B-0A8D-452D-9341-049B36ADF82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7B91C8B-0A8D-452D-9341-049B36ADF82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7B91C8B-0A8D-452D-9341-049B36ADF82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C745BE2-773D-4F27-A395-1126594CDBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C745BE2-773D-4F27-A395-1126594CDBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C745BE2-773D-4F27-A395-1126594CDBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C745BE2-773D-4F27-A395-1126594CDBAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,3 +1,9 @@
+@import '_content/StoriesLibrary.Components/StoriesLibrary.Components.bundle.scp.css';
+
+/* /Pages/Novelties/Today.razor.rz.scp.css */
+p[b-eieh1nrz0p] {
+    color: red;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-ff64j21whr] {
     position: relative;

@@ -29,29 +29,75 @@ else
 	<p role="alert">Se han encontrado @filteredResults.Count resultados.</p>
 	<table>
 		<caption>@captionWithFilter</caption>
-		<thead>
-			<tr>
-				<th></th>
-				<th>Titulo</th>
-				<th>Autor</th>
-				<th>Fecha de Publicación</th>
-				<th>Categoría</th>
-			</tr>
-		</thead>
+		@if(HeaderTemplate == null)
+		{
+			<thead>
+				<tr>
+					<th></th>
+					<th>Titulo</th>
+					<th>Autor</th>					
+					<th>Categoría</th>
+				</tr>
+			</thead>
+		}
+		else
+		{
+			@HeaderTemplate
+		}		
 		<tbody>
+			@*REPRESENTACIÓN VIRTUALIZADA DE ELEMENTOS - SCROLL INFINITO - CARGA A MEDIDA QUE LA UI LO VAYA REQUIRIENDO
+				<Virtualize Items="filteredResults" Context="item"> forma directa de hacer virtualización, pero tiene todos los elementos cargados en memoria
+			*@
+			<Virtualize Context="item" ItemsProvider="@LoadStories">
+				<ItemContent>
+					@if (RowTemplate == null)
+					{
+						<tr>
+							<td><input id="checkVisible" type="checkbox" @bind="item.Visible" /></td>
+							<td><a href="#" @onclick="@(()=> SelectStory(item))" @onclick:preventDefault="true">@item.Title</a> </td>
+							<td>@item.Author</td>
+							<td>@item.Category</td>
+						</tr>
+						<tr style="display: @(!item.Visible?"none": "inline");">
+							<td colspan="2">DESCRIPCIÓN DEL TITULO</td>
+						</tr>
+					}
+					else
+					{
+						@RowTemplate((item, this))
+					}
+				</ItemContent>
+				<Placeholder>
+					<tr>
+						<td colspan="4">Cargando .....</td>
+					</tr>
+					
+				</Placeholder>
+				
+			</Virtualize>
+
+			
+
+			@*SE COMENTA CODIGO PARA PROBAR VIRTUALIZACIÓN - METODO TOTALMENTE FUNCIONAL
 			@foreach (var item in filteredResults.OrderBy(s=>s.PublishedDate))
 			{
-				<tr>
-					<td><input id="checkVisible" type="checkbox" @bind="item.Visible"/></td>
-					<td><a href="#" @onclick="@(()=> SelectStory(item))" @onclick:preventDefault="true">@item.Title</a> </td>
-					<td>@item.Author</td>
-					<td>@item.PublishedDate.ToLongDateString()</td>
-					<td>@item.Category</td>
-				</tr>
-				<tr style="display: @(!item.Visible?"none": "inline");">
-					<td colspan="5">DESCRIPCIÓN DEL TITULO</td>
-				</tr>
-			}
+				@if(RowTemplate == null)
+				{
+					<tr>
+						<td><input id="checkVisible" type="checkbox" @bind="item.Visible" /></td>
+						<td><a href="#" @onclick="@(()=> SelectStory(item))" @onclick:preventDefault="true">@item.Title</a> </td>
+						<td>@item.Author</td>						
+						<td>@item.Category</td>
+					</tr>
+					<tr style="display: @(!item.Visible?"none": "inline");">
+						<td colspan="2">DESCRIPCIÓN DEL TITULO</td>
+					</tr>
+				}
+				else
+				{
+					@RowTemplate((item, this))
+				}				
+			}*@
 		</tbody>
 
 	</table>

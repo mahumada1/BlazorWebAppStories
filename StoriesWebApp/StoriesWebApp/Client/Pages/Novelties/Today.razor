@@ -2,20 +2,24 @@
 @*@layout NoveltiesLayout // POSIBILIDAD DE SOBRE ESCRIBIR EL LAYOUT DE UN COMPONENETE EN PARTICULAR*@
 
 <h2>Novedades de Hoy, página @PageNumber</h2>
+<div>
+    <p>Parrafo que se debe marcar en rojo por aislamiento de CSS, ::depp hace lo mismo para los p dentro del div</p>
 
-@if(_stories == null)
-{
-    <p>Cargando listado ....</p>
-}
-else
-{
-    <StoriesTable Caption="Tabla con las historias de hoy" Stories="@_stories" OnStorySelect="OnStorySelected" />    
-    @if(storySelected != null)
+    @if(_stories == null)
     {
-        <StoryDetails Story="storySelected"/>
+        <p>Cargando listado ....</p>
     }
+    else
+    {
+        <StoriesTable Caption="Tabla con las historias de hoy" Stories="@_stories" OnStorySelect="OnStorySelected" />    
+        @if(storySelected != null)
+        {
+            <StoryDetails Story="storySelected"/>
+        }
     
-}
+    }
+</div>
+
 
 
 

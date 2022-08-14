@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.8" PrivateAssets="all" />
     <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="6.0.0" />
@@ -14,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Shared\StoriesWebApp.Shared.csproj" />
+    <ProjectReference Include="..\StoriesLibrary.Components\StoriesLibrary.Components.csproj" />
   </ItemGroup>
 
 </Project>

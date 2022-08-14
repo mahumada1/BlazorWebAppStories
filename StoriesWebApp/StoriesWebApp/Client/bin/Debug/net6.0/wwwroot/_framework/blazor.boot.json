@@ -9,6 +9,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "Blazored.LocalStorage.dll": "sha256-6RRoYeDP3d0xabXmcCMF66wXeJlXVPem28Trs8sQiis=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-UrVyaila4UaM9NG7wgfD9o+ih1r3xt3rq4W7Z+SCE3w=",
       "Microsoft.AspNetCore.Components.dll": "sha256-8yq2GCAfNZmhru8HZW\/xr9jDHwAS+MD4B1GGQFzi2Pg=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-I5BEosbTOX5zg7agqWZo14z3aViOJYbMCWeRLInDYiQ=",
@@ -200,15 +201,17 @@
       "mscorlib.dll": "sha256-TYLzIm125RbnX9+RAPqJnwZhd6CnQpJcrjiMpJfZ720=",
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
+      "StoriesLibrary.Components.dll": "sha256-AmOsr9xHIdUv\/+J1ZyegZpRkvYWuyGj9rafYA0T4sE0=",
       "StoriesWebApp.Shared.dll": "sha256-YAaBUWNiYheNhAxT2xG5PRhSbO\/oIIuORJoZ7oMsCLI=",
-      "StoriesWebApp.Client.dll": "sha256-bmLu82hNgCPVMJ6hkjeWyFYCC07Y0XiSjRq7COHXjdw="
+      "StoriesWebApp.Client.dll": "sha256-nhshCw0Odh4FOcaAYT1v7GmUX6qKpvW7RfobHaTx6ak="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "StoriesWebApp.Shared.pdb": "sha256-HB7sjz7dtC+6Wx2lYReBYmVGsn3DZzN8yJvfj7ku2fs=",
-      "StoriesWebApp.Client.pdb": "sha256-a11QnMyeZcw\/Vvf6gnt+fTeeseZ589yypxvR6i5cXSg="
+      "StoriesLibrary.Components.pdb": "sha256-E0Q7c98VFagqqhwsi4BknS\/1EthJImVILCiCkOSwH+k=",
+      "StoriesWebApp.Client.pdb": "sha256-NmyZ1CMqZpQKq9drAYHxyJkbXloNCsPyTke65r661\/I="
     },
     "runtime": {
       "dotnet.6.0.8.qgfmgrt5e2.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",

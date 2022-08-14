@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DLYYef4Ot84EPyaVLf/xoAdE2vRaM1v9TBSnBBA3H3M=",
+  "Hash": "m4yM3rMwset6K+m21xvnlOwhOolgYijVC3QydBAWnqo=",
   "Source": "StoriesWebApp.Server",
   "BasePath": "_content/StoriesWebApp.Server",
   "Mode": "Default",
@@ -16,9 +16,27 @@
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
       "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    },
+    {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\StoriesLibrary.Components.csproj",
+      "Version": 2,
+      "Source": "StoriesLibrary.Components",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     }
   ],
   "DiscoveryPatterns": [
+    {
+      "Name": "StoriesLibrary.Components\\wwwroot",
+      "Source": "StoriesLibrary.Components",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\wwwroot\\",
+      "BasePath": "_content/StoriesLibrary.Components",
+      "Pattern": "**"
+    },
     {
       "Name": "StoriesWebApp.Client\\wwwroot",
       "Source": "StoriesWebApp.Client",
@@ -61,6 +79,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\manue\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.8\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "StoriesWebApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\manue\\.nuget\\packages\\blazored.localstorage\\4.2.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.8.qgfmgrt5e2.js",
@@ -707,6 +742,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\manue\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.8\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StoriesLibrary.Components.dll",
+      "SourceId": "StoriesWebApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/StoriesLibrary.Components.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\bin\\Debug\\net6.0\\StoriesLibrary.Components.dll"
+    },
+    {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StoriesLibrary.Components.pdb",
+      "SourceId": "StoriesWebApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/StoriesLibrary.Components.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\bin\\Debug\\net6.0\\StoriesLibrary.Components.pdb"
     },
     {
       "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StoriesWebApp.Client.dll",
@@ -4772,6 +4841,23 @@
       "OriginalItemSpec": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.dll"
     },
     {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\obj\\Debug\\net6.0\\build-gz\\ffyCVOu8.gz",
+      "SourceId": "StoriesWebApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/StoriesLibrary.Components.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StoriesLibrary.Components.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StoriesLibrary.Components.pdb"
+    },
+    {
       "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\obj\\Debug\\net6.0\\build-gz\\fg9yvvtK.gz",
       "SourceId": "StoriesWebApp.Client",
       "SourceType": "Project",
@@ -6710,6 +6796,23 @@
       "OriginalItemSpec": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Data.dll"
     },
     {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\obj\\Debug\\net6.0\\build-gz\\YhZo85YV.gz",
+      "SourceId": "StoriesWebApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/StoriesLibrary.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StoriesLibrary.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StoriesLibrary.Components.dll"
+    },
+    {
       "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\obj\\Debug\\net6.0\\build-gz\\YlzZLSf8.gz",
       "SourceId": "StoriesWebApp.Client",
       "SourceType": "Project",
@@ -6878,6 +6981,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.dll"
+    },
+    {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\obj\\Debug\\net6.0\\build-gz\\Znj8IlCC.gz",
+      "SourceId": "StoriesWebApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Client\\obj\\Debug\\net6.0\\build-gz\\Zpfa4cwC.gz",
@@ -7252,6 +7372,74 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\StoriesWebApp.Server.styles.css",
+      "SourceId": "StoriesWebApp.Server",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/StoriesWebApp.Server",
+      "RelativePath": "StoriesWebApp.Server.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\StoriesWebApp.Server.styles.css"
+    },
+    {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\StoriesLibrary.Components.bundle.scp.css",
+      "SourceId": "StoriesLibrary.Components",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/StoriesLibrary.Components",
+      "RelativePath": "StoriesLibrary.Components.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\StoriesLibrary.Components.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\wwwroot\\background.png",
+      "SourceId": "StoriesLibrary.Components",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\wwwroot\\",
+      "BasePath": "_content/StoriesLibrary.Components",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "StoriesLibrary.Components",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\GIT\\GitPruebas\\BlazorWebAppStories\\StoriesWebApp\\StoriesWebApp\\StoriesLibrary.Components\\wwwroot\\",
+      "BasePath": "_content/StoriesLibrary.Components",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
     }
   ]
 }
