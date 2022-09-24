@@ -1,0 +1,12 @@
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\bin\Release\net6.0\StoriesWebApp.Shared.deps.json
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\bin\Release\net6.0\StoriesWebApp.Shared.dll
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\bin\Release\net6.0\StoriesWebApp.Shared.pdb
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\obj\Release\net6.0\StoriesWebApp.Shared.csproj.AssemblyReference.cache
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\obj\Release\net6.0\StoriesWebApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\obj\Release\net6.0\StoriesWebApp.Shared.AssemblyInfoInputs.cache
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\obj\Release\net6.0\StoriesWebApp.Shared.AssemblyInfo.cs
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\obj\Release\net6.0\StoriesWebApp.Shared.csproj.CoreCompileInputs.cache
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\obj\Release\net6.0\StoriesWebApp.Shared.dll
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\obj\Release\net6.0\refint\StoriesWebApp.Shared.dll
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\obj\Release\net6.0\StoriesWebApp.Shared.pdb
+C:\GIT\GitPruebas\BlazorWebAppStories\StoriesWebApp\StoriesWebApp\Shared\obj\Release\net6.0\ref\StoriesWebApp.Shared.dll
