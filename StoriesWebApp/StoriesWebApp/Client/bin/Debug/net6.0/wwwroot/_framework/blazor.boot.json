@@ -203,7 +203,7 @@
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
       "StoriesLibrary.Components.dll": "sha256-AmOsr9xHIdUv\/+J1ZyegZpRkvYWuyGj9rafYA0T4sE0=",
       "StoriesWebApp.Shared.dll": "sha256-YAaBUWNiYheNhAxT2xG5PRhSbO\/oIIuORJoZ7oMsCLI=",
-      "StoriesWebApp.Client.dll": "sha256-nhshCw0Odh4FOcaAYT1v7GmUX6qKpvW7RfobHaTx6ak="
+      "StoriesWebApp.Client.dll": "sha256-\/rLaLwS6yOFM4dXJuHrw1PyBvo+xrDNPb9sK+xeY9hQ="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -211,7 +211,7 @@
     "pdb": {
       "StoriesWebApp.Shared.pdb": "sha256-HB7sjz7dtC+6Wx2lYReBYmVGsn3DZzN8yJvfj7ku2fs=",
       "StoriesLibrary.Components.pdb": "sha256-E0Q7c98VFagqqhwsi4BknS\/1EthJImVILCiCkOSwH+k=",
-      "StoriesWebApp.Client.pdb": "sha256-NmyZ1CMqZpQKq9drAYHxyJkbXloNCsPyTke65r661\/I="
+      "StoriesWebApp.Client.pdb": "sha256-LrUCk6EOKTl5udU5yuJPYSReT+4sejYE4GdGS8eo5as="
     },
     "runtime": {
       "dotnet.6.0.8.qgfmgrt5e2.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",
